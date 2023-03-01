@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "custom-git-hook"
+description = "My package description"
+readme = "README.md"
+dynamic = ["version"]
+[project.scripts]
+control-hooks = "control-hooks.sh"
+control-hooks1 = "control-hooks-1.sh"
