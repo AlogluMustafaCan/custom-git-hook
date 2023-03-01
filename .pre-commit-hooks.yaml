@@ -16,3 +16,8 @@
     entry: control-hooks-2.sh
     language: script
     always_run: true
+-   id: commitizen
+    name: commitizen check
+    entry: pipenv run cz check
+    language: system
+    args: [--allow-abort, --commit-msg-file]
