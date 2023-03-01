@@ -10,12 +10,6 @@
     entry: control-hooks-1.sh
     language: script
     always_run: true
--   id: control-hooks-2
-    name: PWD Checker
-    description: Enforces the commit message has Ref and ci/build in case of ci/build files
-    entry: control-hooks-2.sh
-    language: script
-    always_run: true
 -   id: commitizen
     name: commitizen check
     entry: pipenv run cz check

@@ -9,4 +9,3 @@ dynamic = ["version"]
 [project.scripts]
 control-hooks = "control-hooks.sh"
 control-hooks1 = "control-hooks-1.sh"
-control-hooks2 = "control-hooks-2.sh"
