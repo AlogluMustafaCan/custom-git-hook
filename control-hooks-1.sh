@@ -1,4 +1,4 @@
-#!/bin/sh -xv
+#!/bin/sh
 git status -s > .git/MODIFIED_FILES
 commit_type="dockerfile jenkinsfile makefile requirements"
 for types in $commit_type; do
