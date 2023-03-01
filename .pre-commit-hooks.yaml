@@ -1,6 +1,12 @@
 -   id: control-hooks
-    name: Ref and Type Checker
+    name: Ref Checker
     description: Enforces the commit message has Ref and ci/build in case of ci/build files
     entry: control-hooks.sh
+    language: script
+    always_run: true
+-   id: control-hooks-1
+    name: Type Checker
+    description: Enforces the commit message has Ref and ci/build in case of ci/build files
+    entry: control-hooks-1.sh
     language: script
     always_run: true
