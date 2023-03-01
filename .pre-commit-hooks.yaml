@@ -1,0 +1,6 @@
+-   id: control-hooks
+    name: Ref and Type Checker
+    description: Enforces the commit message has Ref and ci/build in case of ci/build files
+    entry: control-hooks.sh
+    language: script
+    always_run: true
