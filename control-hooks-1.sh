@@ -1,6 +1,6 @@
 #!/bin/sh
 git status -s > .git/MODIFIED_FILES
-commit_type="dockerfile jenkinsfile makefile requirements .yaml"
+commit_type="dockerfile jenkinsfile makefile requirements yaml"
 for types in $commit_type; do
   if grep -q -i "$types" .git/MODIFIED_FILES; then
     if ! grep -e "ci" -e "build" .git/COMMIT_EDITMSG; then
