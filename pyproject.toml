@@ -7,5 +7,5 @@ description = "My package description"
 readme = "README.md"
 dynamic = ["version"]
 [project.scripts]
-control-hooks = "control-hooks.sh"
-control-hooks1 = "control-hooks-1.sh"
+control-hooks = "refs_control.sh"
+control-hooks1 = "type_control.sh"
